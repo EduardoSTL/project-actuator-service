@@ -1,7 +1,9 @@
-package com.eduardo.spring;
+package com.eduardo.spring.controller;
 
 
 import java.util.concurrent.atomic.AtomicLong;
+
+import com.eduardo.spring.models.Greeting;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
